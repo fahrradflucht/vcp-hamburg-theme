@@ -62,54 +62,12 @@
                             <a href="<?php the_permalink(); ?>">mehr&hellip;</a>
                         </div>
                     </div>
+                    <span class="news-post-icon icon vcpwlz-wlz-einzeln-48"></span>
                 </div>
             <?php endwhile; else : ?>
                 <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
             <?php endif; ?>
-            <div class="news-post">
-                <div class="news-post-container">
-                    <h2>Grundkurs Vorwochenend-Termin verschoben</h2>
-                    <p>Das Vor-Wochenende des Grundkurses 2016 musste auf eine Woche nach hinten verschoben werden. Statt vom 05.-07.02.2016 findet die Grundkursvorbereitung vom 12.-14.02. statt.</p>
-                    <div class="news-post-linkRow">
-                        <a href="#post-id">08.01.2016</a>
-                        <a href="#post-id">mehr&hellip;</a>
-                    </div>
-                </div>
-                <span class="news-post-icon icon vcpwlz-wlz-einzeln-48"></span>
-            </div>
-            <div class="news-post">
-                <div class="news-post-container">
-                    <h2>Nordlager 2016</h2>
-                    <p>Das Vor-Wochenende des Grundkurses 2016 musste auf eine Woche nach hinten verschoben werden. Statt vom 05.-07.02.2016 findet die Grundkursvorbereitung vom 12.-14.02. statt.</p>
-                    <div class="news-post-linkRow">
-                        <a href="#post-id">08.01.2016</a>
-                        <a href="#post-id">mehr&hellip;</a>
-                    </div>
-                </div>
-                <span class="news-post-icon icon vcpwlz-wlz-einzeln-27"></span>
-            </div>
-            <div class="news-post">
-                <div class="news-post-container">
-                    <h2>Grundkurs Vorwochenend-Termin verschoben</h2>
-                    <p>Das Vor-Wochenende des Grundkurses 2016 musste auf eine Woche nach hinten verschoben werden. Statt vom 05.-07.02.2016 findet die Grundkursvorbereitung vom 12.-14.02. statt.</p>
-                    <div class="news-post-linkRow">
-                        <a href="#post-id">08.01.2016</a>
-                        <a href="#post-id">mehr&hellip;</a>
-                    </div>
-                </div>
-                <span class="news-post-icon icon vcpwlz-wlz-einzeln-51"></span>
-            </div>
-            <div class="news-post">
-                <div class="news-post-container">
-                    <h2>Nordlager 2016</h2>
-                    <p>Das Vor-Wochenende des Grundkurses 2016 musste auf eine Woche nach hinten verschoben werden. Statt vom 05.-07.02.2016 findet die Grundkursvorbereitung vom 12.-14.02. statt.</p>
-                    <div class="news-post-linkRow">
-                        <a href="#post-id">08.01.2016</a>
-                        <a href="#post-id">mehr&hellip;</a>
-                    </div>
-                </div>
-                <span class="news-post-icon icon vcpwlz-wlz-einzeln-41"></span>
-            </div>
+
             <div class="news-timeRow">
                 <a class="news-timeRow-link" href="<?php previous_posts_link(); ?>">
                     <!--Remove the text not the link if no items are newer-->
@@ -123,6 +81,7 @@
                     <?php endif; ?>
                 </a>
             </div>
+            
         </div>
     </div>
 </main>
