@@ -1,0 +1,415 @@
+/*
+Theme Name: VCP Hamburg
+Theme URI: https://github.com/fahrradflucht/wp-vcp-hamburg
+Description: Das Theme für den VCP Hamburg
+Version: 1.0
+Author: slab (fahrradflucht)
+Author URI: https://mathiswiehl.de
+*/
+
+/* Fix box model */
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+    position: relative;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+/* Fonts */
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 21px;
+    font-weight: 500;
+    color: #E94653;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+}
+
+a:link {
+    font-size: 14px;
+    font-weight: 300;
+    color: #004287;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00B0EB;
+}
+
+/* Color */
+
+body {
+    background-color: #CDD1CA;
+}
+
+/* Header */
+.header {
+    height: 90px;
+    background: url("img/header/background.svg") top center;
+    background-size: 100% 100%;
+    padding: 16px 10px 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.header__brand{
+    color: #fff;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 18px;
+    transform: rotate(-4deg);
+}
+
+.logo {
+    margin-top: 5px;
+}
+
+.logo .logo__icon {
+    height: 51px;
+    width: 53px;
+}
+
+.menu {
+    text-align: right;
+    font-size: 34px;
+}
+
+.menu__nav {
+    position: absolute;
+    display: none;
+}
+
+#menu__nav-toggler {
+    display: none;
+}
+
+#menu__nav-toggler:checked ~ .menu__nav {
+    z-index: 1000;
+    display: block;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    padding: 16px 0 0;
+    background: #00B0EB;
+    height: 100%;
+    width: 250px;
+    box-shadow: -2px 0px 4px 0px rgba(74, 74, 74, 0.80);
+}
+
+.nav__header {
+    padding-right: 10px;
+}
+
+.nav-items {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+}
+
+.nav-item_current {
+    background-color: rgba(0, 0, 0, 0.23);
+}
+
+.nav-item-link {
+    padding: 0 12px 0 10px;
+    height: 58px;
+    line-height: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item-link:hover {
+    color: #fff;
+}
+
+/* Masthead */
+.masthead-image {
+    position: relative;
+    z-index: -10;
+    width: 100%;
+    margin-top: -70px;
+}
+
+.masthead-overlay {
+    margin-top: -10px;
+    height: 18px;
+    background: url("img/masthead/yellow.svg") top center;
+    background-size: 100% 100%;
+}
+
+/* Footer */
+body {
+    margin-bottom: 122px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background: url("img/footer/background.svg") top center;
+    background-size: 100% 100%;
+    padding: 14px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer-content {
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-content-link:link,
+.footer-content-link:visited,
+.footer-content-link:hover,
+.footer-content-link:active,
+.footer-content {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+
+/* Main */
+.main {
+    margin: 17px 28px 32px;
+}
+
+/* Aktuelles */
+
+.news-posts {
+    margin: 15px 0 0 18px;
+}
+
+.news-post {
+    margin-bottom: 28px;
+}
+
+.news-post-linkRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-post-icon {
+    display: none;
+}
+
+.news-timeRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-timeRow-link:link, .news-timeRow-link:visited {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.news-timeRow-link:hover {
+    color: #00B0EB;
+}
+
+
+@media(min-width: 768px){
+    /* Header */
+    .header {
+        padding: 16px 26px 0;
+    }
+
+    .header__brand{
+        font-size: 36px;
+        transform: rotate(-2deg);
+    }
+
+    .brand-break{
+        display: none;
+    }
+
+    .nav__header {
+        padding-right: 26px;
+    }
+
+    .nav-item-link {
+        padding-right: 26px;
+    }
+
+    /* Masthead */
+    .masthead-image {
+        margin-top: -160px;
+    }
+
+    /* Footer */
+    .footer {
+        padding-bottom: 30px;
+    }
+
+    /* Aktuelles */
+    .news-post-container, .news-timeRow {
+        width: 490px;
+        margin: 0 auto 28px;
+    }
+
+}
+
+@media(min-width: 1024px){
+    /* Fonts */
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    /* Header */
+    .header{
+        padding: 10px 20px 0;
+    }
+
+    .header__brand {
+        font-size: 30px;
+        min-width: 270px;
+        margin-top: 10px;
+        margin-right: auto;
+        transform: rotate(-1deg);
+    }
+
+    .menu {
+        margin-top: -40px;
+    }
+
+    .menu__label {
+        display: none;
+    }
+
+    .menu__nav {
+        position: relative;
+        display: inline;
+    }
+
+    .nav__header {
+        display: none;
+    }
+
+    .nav-items {
+        max-height: 60px;
+        color: #00B0EB;
+    }
+
+    .nav-items li {
+        display: inline-block;
+    }
+
+    .nav-item_current {
+        color: #E94653;
+        background: none;
+    }
+
+    .nav-item-link {
+        padding-right: 0;
+    }
+
+    .nav-item-link .icon {
+        display: none;
+    }
+
+    /* Masthead */
+    .masthead-image {
+        margin-top: -230px;
+    }
+
+    .masthead-overlay {
+        margin-top: -12px;
+        height: 28px;
+    }
+
+    /* Main */
+    .main {
+        max-width: 1024px;
+        margin: 17px auto 32px;
+    }
+
+    /* Footer */
+    .footer-content {
+        font-size: 16px;
+    }
+
+    /* Aktuelles */
+    .news-heading{
+        margin-left: 50px;
+    }
+
+    .news-post{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .news-post-container, .news-timeRow {
+        margin: 0 0 28px 150px;
+    }
+
+    .news-post-icon {
+        display: inline;
+        font-size: 72px;
+        line-height: 100px;
+        color: #E94653;
+        margin-right: 65px;
+        margin-top: 45px;
+    }
+
+    .news-post:nth-child(odd) .news-post-icon{
+        margin-right: 155px;
+    }
+
+    .news-timeRow-link:link, .news-timeRow-link:visited {
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 1440px){
+    /* Header */
+    .logo {
+        margin-right: 20px;
+    }
+
+    .header__brand {
+        font-size: 34px;
+        transform: rotate(-0.5deg);
+    }
+
+    .nav-items {
+        font-size: 28px;
+    }
+
+    .nav-items li {
+        margin: 0 10px;
+    }
+
+    /* Masthead */
+    .masthead-image {
+        margin-top: -300px;
+    }
+
+    /* Footer */
+    .footer-content {
+        font-size: 22px;
+    }
+}
