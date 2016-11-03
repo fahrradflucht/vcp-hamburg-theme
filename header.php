@@ -22,23 +22,11 @@
             <div class="nav__header">
                 <label for="menu__nav-toggler" class="menu__label"><i class="fa fa-bars" aria-hidden="true"></i></label>
             </div>
-            <ul class="nav-items">
-                <li class="nav-item_current">
-                    <a class="nav-item-link"><span class="icon vcpwlz-wlz-einzeln-13"></span> Aktuelles</a>
-                </li>
-                <li>
-                    <a class="nav-item-link"><span class="icon vcpwlz-wlz-einzeln-34"></span> Wer wir sind</a>
-                </li>
-                <li>
-                    <a class="nav-item-link"><span class="icon vcpwlz-wlz-einzeln-39"></span> Was wir tun</a>
-                </li>
-                <li>
-                    <a class="nav-item-link"><span class="icon vcpwlz-wlz-einzeln-23"></span> Service</a>
-                </li>
-                <li>
-                    <a class="nav-item-link"><span class="icon vcpwlz-wlz-einzeln-27"></span> Kontakt</a>
-                </li>
-            </ul>
+            <?php wp_nav_menu(array(
+                'theme_location' => 'navigation',
+                'container' => '',
+                'menu_class' => 'menu-items'
+                )); ?>
         </nav>
     </div>
 </header>
