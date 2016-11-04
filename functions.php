@@ -19,12 +19,6 @@ function page_menu_items($id) {
   return get_page_children( $id, $all_wp_pages );
 }
 
-function is_current_uri($uri) {
-  global $wp;
-  $current = add_query_arg( $wp->query_string, '', trailingslashit(home_url( $wp->request )));
-  return $uri == $current;
-}
-
 function get_parent_title($id) {
   if(!has_parent($id)){
     return get_the_title();
