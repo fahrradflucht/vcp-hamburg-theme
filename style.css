@@ -228,6 +228,22 @@ body {
     color: #00B0EB;
 }
 
+/* Pages */
+.page-nav {
+    display: flex;
+}
+
+a.page-nav-item {
+    margin-right: 14px;
+    font-weight: 400;
+}
+
+a.page-nav-item_current:after {
+    content: '';
+    height: 2px;
+    background: #00B0EB;
+    display: block;
+}
 
 @media(min-width: 768px){
     /* Header */
@@ -267,7 +283,7 @@ body {
         width: 490px;
         margin: 0 auto 28px;
     }
-
+    
 }
 
 @media(min-width: 1024px){
