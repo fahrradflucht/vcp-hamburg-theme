@@ -138,10 +138,6 @@ body {
     color: #fff;
 }
 
-.menu-item>a:hover {
-    color: #fff;
-}
-
 /* Masthead */
 .masthead-image {
     position: relative;
