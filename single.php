@@ -12,7 +12,7 @@
                             <p class="entry"><?php the_content(); ?></p>
                             <div class="news-post-linkRow">
                                 <a href="<?php the_permalink(); ?>"><?php the_time('d.m.Y'); ?></a>
-                                <a href="<?php echo home_url(); ?>">Zurück</a>
+                                <a href="#" onClick="history.back();return false;">Zurück</a>
                             </div>
                         </div>
                     <?php endwhile; endif; ?>
