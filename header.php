@@ -3,6 +3,7 @@
     <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/vendor/normalize.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/vendor/waldlaeuferzeichen-pfadfinden-V1.2-Web-Font/styles.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/vendor/wp-core.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,500,700" rel="stylesheet">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
