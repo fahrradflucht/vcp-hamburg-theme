@@ -36,6 +36,12 @@ h2 {
     color: #000;
 }
 
+h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+
 p {
     font-size: 14px;
     font-weight: 300;
@@ -279,7 +285,7 @@ a.page-nav-item_current:after {
         width: 490px;
         margin: 0 auto 28px;
     }
-    
+
 }
 
 @media(min-width: 1024px){
@@ -289,6 +295,10 @@ a.page-nav-item_current:after {
     }
 
     h2 {
+        font-size: 20px;
+    }
+
+    h3 {
         font-size: 18px;
     }
 
@@ -334,7 +344,7 @@ a.page-nav-item_current:after {
     .current-menu-item, .current-page-ancestor {
         background: none;
     }
-    
+
     .current-menu-item a, .current-page-ancestor a {
         color: #E94653;
     }
