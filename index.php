@@ -15,7 +15,7 @@
                             <a href="<?php the_permalink(); ?>">mehr&hellip;</a>
                         </div>
                     </div>
-                    <span class="news-post-icon icon vcpwlz-wlz-einzeln-48"></span>
+                    <span class="news-post-icon icon vcpwlz-wlz-einzeln-<?php echo rand(1, 52); ?>"></span>
                 </div>
             <?php endwhile; else : ?>
                 <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
@@ -34,7 +34,7 @@
                     <?php endif; ?>
                 </a>
             </div>
-            
+
         </div>
     </div>
 </main>
