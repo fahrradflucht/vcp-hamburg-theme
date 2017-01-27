@@ -272,7 +272,7 @@ a.page-nav-item_current:after {
 
     /* Masthead */
     .masthead-image {
-        margin-top: -160px;
+        margin-top: -22%;
     }
 
     /* Footer */
@@ -357,11 +357,6 @@ a.page-nav-item_current:after {
         display: none;
     }
 
-    /* Masthead */
-    .masthead-image {
-        margin-top: -230px;
-    }
-
     .masthead-overlay {
         margin-top: -12px;
         height: 28px;
@@ -427,11 +422,6 @@ a.page-nav-item_current:after {
 
     .menu-items li {
         margin: 0 10px;
-    }
-
-    /* Masthead */
-    .masthead-image {
-        margin-top: -300px;
     }
 
     /* Footer */
