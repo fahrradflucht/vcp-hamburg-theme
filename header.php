@@ -1,5 +1,6 @@
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?php bloginfo('template_directory') ?>/img/favicons/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php bloginfo('template_directory') ?>/img/favicons/apple-touch-icon-114x114.png" />
