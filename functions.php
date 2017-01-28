@@ -41,9 +41,15 @@ function get_parent_title($id) {
  */
 function get_srcset($img, $sizes) {
     $img_path = get_bloginfo('template_directory') . $img;
+    $last_dot = strrpos($img_path, '.');
     return join(', ', array_map(
         function($size) use ($img_path) {
-            return str_replace('.', '-' . $size . '.', $img_path . ' ' . $size . 'w');
+            return substr_replace(
+                '.',
+                '-' . $size . '.', $img_path . ' ' . $size . 'w',
+                $last_dot,
+                strlen($img_path)
+            );
         },
         $sizes
     ));
