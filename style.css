@@ -1,11 +1,12 @@
-/*
-Theme Name: VCP Hamburg
-Theme URI: https://github.com/fahrradflucht/wp-vcp-hamburg
-Description: Das Theme für den VCP Hamburg
-Version: 0.9
-Author: slab (fahrradflucht)
-Author URI: https://mathiswiehl.de
-*/
+/**
+ * Theme Name: VCP Hamburg
+ * Theme URI: https://github.com/fahrradflucht/wp-vcp-hamburg
+ * Description: Das Theme für den VCP Hamburg
+ * Version: 0.9
+ * Author: slab (fahrradflucht)
+ * Author URI: https://mathiswiehl.de
+ * Github Theme URI: https://github.com/fahrradflucht/wp-vcp-hamburg
+ */
 
 /* Fix box model */
 html {
