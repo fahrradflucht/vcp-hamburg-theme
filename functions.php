@@ -43,12 +43,12 @@ function get_srcset($img, $sizes) {
     $img_path = get_bloginfo('template_directory') . $img;
     $last_dot = strrpos($img_path, '.');
     return join(', ', array_map(
-        function($size) use ($img_path) {
+        function($size) use ($img_path, $last_dot) {
             return substr_replace(
-                '.',
-                '-' . $size . '.', $img_path . ' ' . $size . 'w',
+                $img_path . ' ' . $size . 'w',
+                '-' . $size . '.',
                 $last_dot,
-                strlen($img_path)
+                1
             );
         },
         $sizes
