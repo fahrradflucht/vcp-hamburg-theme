@@ -54,7 +54,7 @@
 </header>
 <div class="masthead">
     <img
-        src="<?php bloginfo('template_directory') ?>/img/masthead/Kothe.jpeg"
+        src="<?php bloginfo('template_directory') ?>/img/masthead/Kothe-1200.jpeg"
         srcSet="<?php echo get_srcset('/img/masthead/Kothe.jpeg', [320, 420, 540, 700, 920, 1200, 1600, 2000, 2600, 3632]) ?>"
         alt="Kothe"
         class="masthead-image">
