@@ -14,13 +14,12 @@ html {
     min-height: 100%;
     position: relative;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
-
 /* Fonts */
-
 html {
     font-family: 'Roboto', sans-serif;
 }
@@ -61,7 +60,6 @@ a:hover {
 }
 
 /* Color */
-
 body {
     background-color: #CDD1CA;
 }
@@ -199,7 +197,6 @@ body {
 }
 
 /* Aktuelles */
-
 .news-posts {
     margin: 15px 0 0 18px;
 }
