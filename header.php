@@ -34,7 +34,12 @@
 <body>
 <header class="header">
     <a href="<?php echo site_url(); ?>" class="logo" title="Gehe zur Homepage">
-      <img class="logo__icon" src="<?php bloginfo('template_directory') ?>/img/header/VCP-Zeichen_Weiss_CMYK.svg" alt="VCP Logo">
+      <img
+        class="logo__icon"
+        src="<?php bloginfo('template_directory') ?>/img/header/VCP-Zeichen-Weiss-50.png"
+        srcSet="<?php echo get_srcset('/img/header/VCP-Zeichen-Weiss.png', [50, 100, 150, 200]) ?>"
+        sizes="50px"
+        alt="VCP Logo">
     </a>
     <h1 class="header__brand">VCP <br class="brand-break">Land Hamburg</h1>
     <div class="menu">

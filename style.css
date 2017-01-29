@@ -89,8 +89,9 @@ body {
 }
 
 .logo .logo__icon {
-    height: 51px;
-    width: 53px;
+    margin-top: -5px;
+    margin-left: 5px;
+    width: 50px;
 }
 
 .menu {
@@ -312,6 +313,10 @@ a.page-nav-item_current:after {
         margin-top: 10px;
         margin-right: auto;
         transform: rotate(-1deg);
+    }
+
+    .logo .logo__icon {
+        margin: 0 20px 0 0;
     }
 
     .menu {
