@@ -41,7 +41,7 @@
         sizes="50px"
         alt="VCP Logo">
     </a>
-    <h1 class="header__brand">VCP <br class="brand-break">Land Hamburg</h1>
+    <h1 class="header__brand" id="header__brand">VCP <br class="brand-break">Land Hamburg</h1>
     <div class="menu">
         <label for="menu__nav-toggler" class="menu__label"><i class="fa fa-bars" aria-hidden="true"></i></label>
         <input type="checkbox" id="menu__nav-toggler">

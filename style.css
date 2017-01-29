@@ -85,7 +85,7 @@ body {
     margin-top: 0px;
     text-align: center;
     font-size: 18px;
-    transform: rotate(-4deg);
+    transform: rotate(-2.68377515946deg);
 }
 
 .logo {
@@ -270,7 +270,7 @@ a.page-nav-item_current:after {
 
     .header__brand{
         font-size: 36px;
-        transform: rotate(-2deg);
+        transform: rotate(-1.1189159305672deg);
     }
 
     .brand-break{
@@ -331,7 +331,7 @@ a.page-nav-item_current:after {
         min-width: 270px;
         margin-top: 10px;
         margin-right: auto;
-        transform: rotate(-1deg);
+        transform: rotate(-0.839233621979231deg);
     }
 
     .logo .logo__icon {
@@ -445,7 +445,7 @@ a.page-nav-item_current:after {
 
     .header__brand {
         font-size: 34px;
-        transform: rotate(-0.5deg);
+        transform: rotate(-0.59680945122918deg);
     }
 
     .menu-items {
