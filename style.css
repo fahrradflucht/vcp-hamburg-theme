@@ -332,6 +332,10 @@ a.page-nav-item_current:after {
         display: inline;
     }
 
+    #menu__nav-toggler:checked ~ .menu__nav {
+        display: inline;
+    }
+
     .nav__header {
         display: none;
     }
