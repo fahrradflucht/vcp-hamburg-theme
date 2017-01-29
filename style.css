@@ -49,7 +49,7 @@ p, li {
     color: #000;
 }
 
-a:link {
+a:link, a:visited {
     font-size: 14px;
     font-weight: 300;
     color: #004287;
