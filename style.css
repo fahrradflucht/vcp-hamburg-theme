@@ -43,7 +43,7 @@ h3 {
     color: #000;
 }
 
-p {
+p, li {
     font-size: 14px;
     font-weight: 300;
     color: #000;
@@ -58,6 +58,10 @@ a:link {
 
 a:hover {
     color: #00B0EB;
+}
+
+li {
+    margin-bottom: 7px;
 }
 
 /* Color */
