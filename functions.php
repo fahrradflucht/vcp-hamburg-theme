@@ -13,10 +13,10 @@ function page_menu_items($id) {
     $id = get_parent_id($id);
   }
 
-  $my_wp_query = new WP_Query();
-  $all_wp_pages = $my_wp_query->query(array('post_type' => 'page'));
-
-  return get_page_children( $id, $all_wp_pages );
+  return get_pages(array(
+      'child_of' => $id,
+      'sort_column' => 'menu_order'
+  ));
 }
 
 function get_parent_title($id) {
