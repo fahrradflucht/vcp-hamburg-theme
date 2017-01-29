@@ -6,5 +6,5 @@
         &middot
         <a href=<?php echo get_page_by_title('kontakt')->guid; ?> class="footer-content-link">Kontakt</a>
     </div>
-</setion>
+</section>
 <?php wp_footer(); ?>
