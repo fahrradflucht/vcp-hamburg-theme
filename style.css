@@ -71,6 +71,10 @@ body {
 
 /* Header */
 .header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1; /* Need to keep the mobile nav on top of the footer. */
     height: 90px;
     background: url("img/header/background.svg") top center;
     background-size: 100% 100%;
@@ -120,7 +124,7 @@ body {
     right: 0;
     padding: 16px 0 0;
     background: #00B0EB;
-    height: 100%;
+    height: 100vh;
     width: 250px;
     box-shadow: -2px 0px 4px 0px rgba(74, 74, 74, 0.80);
 }
