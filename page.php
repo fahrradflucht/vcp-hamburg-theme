@@ -13,9 +13,9 @@
                             $the_ID = get_the_ID();
                             foreach (page_menu_items($the_ID) as $child) {
                                 if($the_ID == $child->ID) {
-                                    echo '<a class="page-nav-item page-nav-item_current" href="'.$child->guid.'">'.$child->post_title.'</a>';
+                                    echo '<a class="page-nav-item page-nav-item_current" href="'.get_page_link($child->ID).'">'.$child->post_title.'</a>';
                                 } else {
-                                    echo '<a class="page-nav-item" href="'.$child->guid.'">'.$child->post_title.'</a>';
+                                    echo '<a class="page-nav-item" href="'.get_page_link($child->ID).'">'.$child->post_title.'</a>';
                                 }
                             }
                             ?>
