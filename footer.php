@@ -1,5 +1,7 @@
 <section class="footer">
     <div class="footer-content">
+        <a href=<?php echo get_page_by_title('datenschutzerklärung')->guid; ?> class="footer-content-link">Datenschutzerkl&auml;rung</a>
+        &middot
         <a href=<?php echo get_page_by_title('impressum')->guid; ?> class="footer-content-link">Impressum</a>
         &middot
         <a href="<?php echo site_url(); ?>" class="footer-content-link">VCP Hamburg</a>
