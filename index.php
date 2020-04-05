@@ -22,13 +22,12 @@
             <?php endif; ?>
 
             <div class="news-timeRow">
-                <a class="news-timeRow-link" href="<?php previous_posts_link(); ?>">
-                    <!--Remove the text not the link if no items are newer-->
+                <a class="news-timeRow-link" href="<?php get_previous_posts_link(); ?>">
                     <?php if( get_previous_posts_link() ) : ?>
                         <span class="icon vcpwlz-wlz-einzeln-13"></span> neuer
                     <?php endif; ?>
                 </a>
-                <a class="news-timeRow-link" href="<?php next_posts_link(); ?>">
+                <a class="news-timeRow-link" href="<?php get_next_posts_link(); ?>">
                     <?php if( get_next_posts_link() ) : ?>
                         <span class="icon vcpwlz-wlz-einzeln-14"></span> älter
                     <?php endif; ?>
